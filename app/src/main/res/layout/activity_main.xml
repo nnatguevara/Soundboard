@@ -49,19 +49,19 @@
         app:layout_constraintGuide_begin="263dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="Dog Barking Twice"
+        android:id="@+id/btn_dog"
+        android:layout_width="96dp"
+        android:layout_height="107dp"
+        android:text="Dog"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/btn_rain"
+        android:layout_width="97dp"
+        android:layout_height="105dp"
         android:text="Light Rain Loop"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline13"
@@ -69,10 +69,10 @@
         app:layout_constraintTop_toTopOf="@+id/guideline8" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="Bumblebee Buzz"
+        android:id="@+id/btn_bee"
+        android:layout_width="103dp"
+        android:layout_height="111dp"
+        android:text="Bee"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline13"
@@ -80,19 +80,19 @@
         app:layout_constraintVertical_bias="0.504" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="Cow Moo"
+        android:id="@+id/btn_cow"
+        android:layout_width="101dp"
+        android:layout_height="113dp"
+        android:text="Cow"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/btn_sheep"
+        android:layout_width="100dp"
+        android:layout_height="104dp"
         android:text="Sheep"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toStartOf="@+id/guideline13"
@@ -100,9 +100,9 @@
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/btn_guitar"
+        android:layout_width="106dp"
+        android:layout_height="117dp"
         android:text="Guitar Riff"
         app:layout_constraintBottom_toTopOf="@+id/guideline10"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,29 +110,29 @@
         app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="Bus Departure"
+        android:id="@+id/btn_bus"
+        android:layout_width="96dp"
+        android:layout_height="112dp"
+        android:text="Bus"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:text="Motorcycle"
+        android:id="@+id/btn_bike"
+        android:layout_width="98dp"
+        android:layout_height="116dp"
+        android:text="Bike"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toStartOf="@+id/guideline13"
         app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/btn_tram"
+        android:layout_width="111dp"
+        android:layout_height="119dp"
         android:text="Slow Tram Passing"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
         app:layout_constraintEnd_toEndOf="parent"
@@ -150,5 +150,36 @@
         app:layout_constraintStart_toStartOf="@+id/guideline12"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.495" />
+
+    <Button
+        android:id="@+id/btn_game"
+        android:layout_width="93dp"
+        android:layout_height="102dp"
+        android:text="Video Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <Button
+        android:id="@+id/btn_siren"
+        android:layout_width="104dp"
+        android:layout_height="109dp"
+        android:text="Police Siren"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline12"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+    <Button
+        android:id="@+id/btn_bell"
+        android:layout_width="102dp"
+        android:layout_height="106dp"
+        android:text="Bell Notif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
