@@ -58,6 +58,71 @@ public class MainActivity extends AppCompatActivity {
                 playBee();
             }
         });
+
+        btnCow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playCow();
+            }
+        });
+
+        btnSheep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSheep();
+            }
+        });
+
+        btnGuitar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playGuitar();
+            }
+        });
+
+        btnBus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playBus();
+            }
+        });
+        btnBike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playBike();
+            }
+        });
+
+        btnTram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playTram();
+            }
+        });
+
+        btnGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playGame();
+            }
+        });
+
+        btnSiren.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playSiren();
+            }
+        });
+
+        btnBell.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                playBell();
+            }
+        });
+
+
+
     }
 
     private void playDog(){
@@ -88,6 +153,123 @@ public class MainActivity extends AppCompatActivity {
 
     private void playBee(){
         MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_bumblebee);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playCow(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_cow);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playSheep(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_sheep);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playGuitar(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_guitar);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playBus(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_bus);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playBike(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_motorcycle);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playTram(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_tram);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playGame(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_videogame);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playSiren(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_siren);
+        mp.start();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.stop();
+                mp.release();
+                mp = null;
+            }
+        });
+    }
+
+    private void playBell(){
+        MediaPlayer mp = MediaPlayer.create(this,R.raw.sample_natimals_bells);
         mp.start();
         mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
